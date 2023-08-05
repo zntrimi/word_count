@@ -4,12 +4,16 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 40px;
+    text-align: center; /* Centering the content */
 }
 
 #textArea {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin: 10px 0;
+    display: block; /* Making the textarea a block element */
+    margin-left: auto; /* Centering the textarea */
+    margin-right: auto;
 }
 
 button {
